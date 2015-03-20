@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class A implements Serializable {
+public class S implements Serializable {
 
 	private String z;
 	private String x;

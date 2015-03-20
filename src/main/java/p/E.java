@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 public class E implements Serializable {
 
 	private Long v;
-	private List<A> a;
+	private List<S> s;
 	private K k = new K();
 
 	@Id
@@ -35,11 +35,11 @@ public class E implements Serializable {
 	}
 
 	@OneToMany
-	public List<A> getA() {
-		return a;
+	public List<S> getS() {
+		return s;
 	}
 
-	public void setA(List<A> a) {
-		this.a = a;
+	public void setS(List<S> s) {
+		this.s = s;
 	}
 }
