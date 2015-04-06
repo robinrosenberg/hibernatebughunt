@@ -34,7 +34,7 @@ public class E implements Serializable {
 		this.k = k;
 	}
 
-	@OneToMany
+	@OneToMany(mappedBy="e")
 	public List<S> getS() {
 		return s;
 	}

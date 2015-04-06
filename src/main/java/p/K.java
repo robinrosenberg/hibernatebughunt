@@ -21,7 +21,7 @@ public class K {
 		this.i = i;
 	}
 
-	@OneToMany
+	@OneToMany(mappedBy="k")
 	public List<E> getE() {
 		return e;
 	}
